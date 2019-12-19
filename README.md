@@ -1,4 +1,3 @@
-# python
 from tkinter import *
 
 reset = True
