@@ -21,15 +21,12 @@ def buttonCallBack(event):
     label['text'] = s + num
 
 
-# 主窗口
 root = Tk()
 root.wm_title("计算器")
-# 显示栏1
 label = Label(root, text="0", background="white", anchor="e")
 label['width'] = 35
 label['height'] = 2
 label.grid(row=1, columnspan=4, sticky=W)
-# 按钮
 showText = "789/456*123-0.C+"
 for i in range(4):
     for j in range(4):
